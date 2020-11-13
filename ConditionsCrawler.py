@@ -3,13 +3,18 @@ from lxml import etree
 import time
 import threading, random
 from multiprocessing import Pool
+from ultilities import CSECourse
+import logging
+
+logging.basicConfig(filename="condition.log",level=logging.INFO)
 
 def conditions(course):
-    url = f"https://www.handbook.unsw.edu.au/postgraduate/courses/2020/{course}"
+    url = f"https://www.handbook.unsw.edu.au/postgraduate/courses/2021/{course}"
     r = requests.get(url)
     if r.status_code == 200:
         selector = etree.HTML(r.content)
-        contents = selector.xpath('/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[3]/div/div[1]/div')
+        # contents = selector.xpath('/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[3]/div/div[1]/div')
+        contents = selector.xpath('/html/body/div[3]/div[3]/div[2]/div/div[2]/div[3]/div[2]/div[1]/div[2]/div[2]/div')
         if len(contents) == 1:
             if contents[0].text.strip():
                 # remove "Prerequisite:" and other blank
@@ -147,13 +152,21 @@ if __name__ == '__main__':
     course_lst = [c.strip() for c in course_lst if c]
 
     # SINGLE THREAD
-    # for course in course_lst:
-    #     print(course, end="    ")
-    #     print(conditions(course))
-    #     time.sleep(0.5)
+    for course in course_lst:
+        # print(course, end="    ")
+        c = CSECourse(course)
+        # print(c.get_prequisite())
+        logging.info(f"{course}    {c.get_prequisite()}")
+        time.sleep(0.5)
+
+
     # 
     #
 
 
     # MUL_THREAD
-    mul_thread(conditions, course_lst, 4)
+    # mul_thread(conditions, course_lst, 2)
+
+    # conditions(course_lst)
+
+

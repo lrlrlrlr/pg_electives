@@ -1,0 +1,108 @@
+INFO:root:BINF9010    Enrolled in a COMPBS (MIT) or COMPFR (2645) or COMPER (1650) plan
+INFO:root:COMP6441    None
+INFO:root:COMP9020    None
+INFO:root:COMP9021    None
+INFO:root:COMP9032      COMP9021.
+INFO:root:COMP9311    None
+INFO:root:COMP9414     COMP9021
+INFO:root:COMP9814     COMP9024.
+INFO:root:COMP9511    None
+INFO:root:GSOE9210    None
+INFO:root:GSOE9220    None
+INFO:root:GSOE9820    None
+INFO:root:BINF6111     BINF9010 and COMP9021
+INFO:root:BINF6112     COMP9021
+INFO:root:COMP4121     COMP9101 or COMP9801.
+INFO:root:COMP6451     COMP2521 OR COMP9024
+INFO:root:COMP6324     COMP9021 and COMP9311
+INFO:root:COMP9024    None
+INFO:root:COMP9044     COMP9021
+INFO:root:COMP9101     COMP9024.
+INFO:root:COMP9801     a mark of at least 70 in COMP9024.
+INFO:root:COMP9222     COMP9032.
+INFO:root:COMP9321     COMP9021 and COMP9311
+INFO:root:COMP9322     COMP9321.
+INFO:root:COMP9331     COMP9024.
+INFO:root:COMP4161     Completion of 48 UOC
+INFO:root:COMP9415     COMP9024.
+INFO:root:COMP9447     COMP6441 or COMP6841 or COMP9441
+INFO:root:BINF9020     COMP9024.
+INFO:root:COMP4141     COMP9020 and COMP9024
+INFO:root:COMP4418     COMP9414 or COMP9814
+INFO:root:COMP6445     COMP6441 or COMP6841 or COMP9441, and COMP9201 or COMP9283
+INFO:root:COMP6447     A mark of at least 65 in COMP6841, or a mark of at least 75 in COMP6441 or COMP9441
+INFO:root:COMP6721     COMP9020 and COMP9024
+INFO:root:COMP6448     COMP6841
+INFO:root:COMP6452     COMP9024.
+INFO:root:COMP6714     COMP9020 and COMP9024
+INFO:root:COMP6841     COMP9024.
+INFO:root:COMP9102     COMP9024.
+INFO:root:COMP9154     COMP9024.
+INFO:root:COMP9164     COMP9024.
+INFO:root:COMP6733     65 WAM and COMP9331
+INFO:root:COMP9201     COMP9024 and COMP9032.
+INFO:root:COMP9283     COMP9024 AND COMP9032 AND a WAM of at least 75
+INFO:root:COMP9211     COMP9222.
+INFO:root:COMP9313     COMP9024 and COMP9311
+INFO:root:COMP6741     COMP9101 or COMP9801.
+INFO:root:COMP6752     COMP9020
+INFO:root:COMP6771     COMP9024.
+INFO:root:COMP9332     COMP9331.
+INFO:root:COMP9333    Unknown
+INFO:root:COMP6845     COMP6441 or COMP6841 or COMP9441, and COMP9201 or COMP9283
+INFO:root:COMP9153     COMP9020
+INFO:root:COMP9242     a mark of at least 75 in either COMP9201 or COMP9283.
+INFO:root:COMP9243     COMP9201 or COMP9283, and COMP9331.
+INFO:root:COMP9315     COMP9024 and COMP9311.
+INFO:root:COMP9318     COMP9020 and COMP9024 and COMP9311
+INFO:root:COMP9319     COMP9024.
+INFO:root:COMP6443     COMP6441 or COMP6841 or COMP9441
+INFO:root:COMP9323     COMP9021 and COMP9311 and > 65 WAM
+INFO:root:COMP9334     COMP9021
+INFO:root:COMP9336     COMP9331.
+INFO:root:COMP9337     COMP9331.
+INFO:root:COMP6843     COMP6441 or COMP6841 or COMP9441
+INFO:root:COMP9417     COMP9020 and COMP9024
+INFO:root:COMP9418     COMP9417.
+INFO:root:COMP9434     70 WAM and COMP9024.
+INFO:root:COMP9444     COMP9024.
+INFO:root:COMP9517     COMP9024.
+INFO:root:COMP9596    Unknown
+INFO:root:COMP9900     Completion of at least 72 UOC towards MIT program 8543.  Students must be in their final semester of study.
+INFO:root:COMP9945    Unknown
+INFO:root:BIOT7160    Unknown
+INFO:root:MBAX9117    Must be enrolled in Program 8355, 8625, 8616, 5950, 5457, 7315, 7333, 8345 or 8350
+INFO:root:GEOS9016    None
+INFO:root:GMAT9106    Unknown
+INFO:root:GMAT9200    None
+INFO:root:GMAT9201    Unknown
+INFO:root:GMAT9205    None
+INFO:root:GMAT9210    Unknown
+INFO:root:GMAT9211    None
+INFO:root:GMAT9300    None
+INFO:root:GMAT9600    None
+INFO:root:GMAT9606    None
+INFO:root:GSOE9010    Enrolled in a Faculty of Engineering program and completion of 12 UOC
+INFO:root:GSOE9011    Enrolled in a Faculty of Engineering program and completion of 12 UOC
+INFO:root:GSOE9758    None
+INFO:root:INFS5885    None
+INFO:root:INFS5905    Unknown
+INFO:root:INFS5991    Unknown
+INFO:root:TABL5521    Unknown
+INFO:root:MATH5836    None
+INFO:root:MATH5845    None
+INFO:root:MATH5846    None
+INFO:root:MATH5855    None
+INFO:root:MATH5856     MATH5846
+INFO:root:MATH5905    None
+INFO:root:MATH5960    None
+INFO:root:TELE9751    None
+INFO:root:TELE9752    None
+INFO:root:TELE9753    None
+INFO:root:TELE9754    None
+INFO:root:MARK5826     (COMM5005 or COMM5011 or ECON5248) OR (in program 8543, 8338, 8621 or 5659).<br/>If students can demonstrate equivalent statistics knowledge, but haven't met the listed pre-requisites, they can seek permission by submitting an online form.
+INFO:root:MARK5827     (COMM5005 or COMM5011 or ECON5248) OR (in program 8543, 8338, 8621 or 5659).<br/>If students can demonstrate equivalent statistics knowledge, but haven't met the listed pre-requisites, they can seek permission by submitting an online form.
+INFO:root:MARK5828     (COMM5005 or COMM5011 or ECON5248) OR (in program 8543, 8338, 8621 or 5659).<br/>If students can demonstrate equivalent statistics knowledge, but haven't met the listed pre-requisites, they can seek permission by submitting an online form.
+INFO:root:    Unknown
+INFO:root:BINF9010    Enrolled in a COMPBS (MIT) or COMPFR (2645) or COMPER (1650) plan
+INFO:root:BINF9010    Enrolled in a COMPBS (MIT) or COMPFR (2645) or COMPER (1650) plan

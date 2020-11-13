@@ -15,7 +15,7 @@ def course_details(course_code)->dict:
 
 
 
-    return {"course_code":course_code,
+    return {"code":course_code,
      "timetable_url":timetable_url,
      "course_name":course_name,
      "level":level,
